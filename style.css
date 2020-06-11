@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    font-family:'Sriracha', cursive;;
+}
+
+#name{
+    color: #EC4C7A;
+}
+.top-banner{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+}
+.half-width{width: 30%;
+    height: 100%;    
+    float: left;
+    margin-left: 5%;
+    padding-left: 5%
+    }
+.half-width img{
+    width: 100%;
+}
+.hire{
+    text-decoration: none;
+    background-color:#E1608F ;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.hire:hover{
+    background-color: cyan;
+    font-size: 20px;
+}
+section{
+    height: 500px;
+}
+
+
+
+
+.biography{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    padding: 50px 0;
+}
+
+
+
+
+
+
+
+    h3{text-align: center;
+        font-size: 40px;}
+  
+
+
+    .work-area{
+        margin-top:5%;
+        padding: 0 5%;
+    }
+    
+        .work-area img{
+        width: 100%;
+    }
+    .latest-one{
+        max-width: 30%;
+        float: left;
+        margin-right: 3%;
+    }
+    .latest-work{
+        background-image: url("./personal-website/latest-work-bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 60px;
+    }
+    .latest-area{
+        font-size: 40px;
+        margin-top: 5%;
+        text-align: center;
+    }
+    .latest-work img{
+        box-shadow:0 2px 2px 0 rgb(132, 216, 116), 0 3px 1px -2px rgb(115, 108, 206), 0 1px 5px 0 rgb(123, 188, 226);
+    }
+    
+    
+    .client-review{
+        background-image: url("./personal-website/footer-bg.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+        padding: 50px 0;
+    }
+    .Client-title{
+        text-align: center;
+        font-size: 40px;
+    }
+    .Bruce-title h2, p{
+        text-align: center;
+    }
+    .speech-title p{
+        text-align:center ;
+        font-size: 20px;
+        color: black;
+    }
+    .content-area{
+        margin: 50px 0;
+    }
+    .email-area{
+        width: 45%;
+        margin: 0 auto;
+    
+        text-align: center;
+        color: white;
+        border-radius: 10px;
+        padding: 15px 25px 35px 25px ;
+        background-image: linear-gradient(50deg, chocolate, brown);
+    }
+    .email-area a{
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+    }
+  
+   
+    .email-area p{
+        text-align: center;
+        color: white;
+    } 
+    footer{
+        color: gray;
+    }
